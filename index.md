@@ -14,7 +14,7 @@ enddate: 2021-10-28 16:45
 instructor: ["Andy Turner"]
 helper: 
 email: ["support@archer2.ac.uk"]
-collaborative_notes: 
+collaborative_notes: https://pad.archer2.ac.uk/p/211028-package-performance
 ---
 As parallel packages for computational science become more sophisticated, it becomes more difficult
 for a researcher to understand the most important factors that determine end-to-end productivity
@@ -111,6 +111,13 @@ The lesson aims to answer the following questions:
   for more information.
 </p>
 
+{% if page.collaborative_notes %}
+During the lesson we will make use of a collaborative document (or etherpad) that all participants
+can edit:
+
+- [Course Etherpad](https://pad.archer2.ac.uk/p/211028-package-performance)
+{% endif %}
+
 <hr/>
 
 > ## Prerequisites
@@ -129,6 +136,8 @@ The lesson aims to answer the following questions:
 
 Note that this lesson uses [The Carpentries](https://carpentries.org) template but this is not a 
 Carpentries lesson.
+
+
 
 {% include links.md %}
 
