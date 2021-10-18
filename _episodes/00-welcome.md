@@ -17,11 +17,10 @@ keypoints:
 ## Code of Conduct
 
 To make this as good a learning experience as possible for everyone involved we require all
-participants to adhere to the [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/training/code-of-conduct/).
+participants to adhere to the [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct/).
 
 Any form or behaviour to exclude, intimidate, or cause discomfort is a violation of the Code of Conduct. In
-order to foster a positive and professional learning environment we encourage the following kinds of behaviours
-throughout this course:
+order to foster a positive and professional learning environment we encourage the following kinds of behaviours throughout this course:
 
  - Use welcoming and inclusive language
  - Be respectful of different viewpoints and experiences
@@ -61,7 +60,7 @@ information you found useful.
 ## Feedback
 
 Feedback is integral to how we approach training both during and after the course. In particular, we
-use informal and structured feedback activities during the course to ensure we tailor the pace and
+use informal feedback activities during the course to ensure we tailor the pace and
 content appropriately for the attendees and feedback after the course to help us improve our training
 for the future.
 

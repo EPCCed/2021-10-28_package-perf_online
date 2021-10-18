@@ -7,11 +7,11 @@ address:
 country: "UK"
 language: "English"
 latlng: 
-humandate: 
-humantime: 
-startdate: 
-enddate: 
-instructor: 
+humandate: 28 October 2021
+humantime: 09:30 BST
+startdate: 2021-10-28 09:30
+enddate: 2021-10-28 16:45
+instructor: ["Andy Turner"]
 helper: 
 email: ["support@archer2.ac.uk"]
 collaborative_notes: 
@@ -124,7 +124,7 @@ The lesson aims to answer the following questions:
 > Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet,
 > Chromebook, etc.) that they have administrative privileges on. They should have a few specific software
 > packages installed (listed in the Setup section below). They are also required to abide by the
-> [ARCHER2 Training Code of Conduct](https://www.archer2.ac.uk/training/code-of-conduct/).
+> [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct/).
 {: .prereq}
 
 Note that this lesson uses [The Carpentries](https://carpentries.org) template but this is not a 
