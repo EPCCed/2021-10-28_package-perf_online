@@ -104,5 +104,5 @@ remote_theme: carpentries/carpentries-theme
 
 # Course settings
 workshop_account: "ta036"
-workshop_reservation: "ta036_180"
-workshop_srun_options: "--partition=standard --qos=standard --reservation=ta036_180 --account=ta036 --hint=nomultithread --distribution=block:block"
+workshop_reservation: "ta036_224"
+workshop_srun_options: "--partition=standard --qos=standard --reservation=ta036_224 --account=ta036 --hint=nomultithread --distribution=block:block"
