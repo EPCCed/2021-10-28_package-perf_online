@@ -14,11 +14,6 @@ keypoints:
 - "The potential performance improvement depends on the whole workflow, not just the individual component."
 ---
 
-> ## And what do you do?
-> Talk to your neighbour or add a few sentences to the etherpad describing the research
-> area you work in and why you have come on this course.
-{: .challenge}
-
 In this section we will look at research workflows that involve an HPC component. It
 is useful to keep your own workflow in mind throughout. Some of the steps or components
 we describe may not be relevant to your own workflow and you may have additional steps or

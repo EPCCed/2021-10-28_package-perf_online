@@ -37,7 +37,7 @@ the final, full ARCHER2 system is put together.
 ## Compute nodes
 
 There are 1,024 compute nodes in total in the 4 cabinet system giving a total of 131,072 compute cores
-(there will be 5,848 nodes on the full ARCHER2 system, 748,544 compute cores). All
+(there will be 5,860 nodes on the full ARCHER2 system, 750,080 compute cores). All
 compute nodes on the 4 cabinet system with 256 GiB memory per node. All of the compute
 nodes are linked together using the high-performance Cray Slingshot interconnect.
 
@@ -46,7 +46,7 @@ both batch jobs and interactive jobs.
 
 ## Storage
 
-There are two different storage systems available on the ARCHER2 4 cabinet system:
+There are two different storage systems available on the ARCHER2 4-cabinet system:
 
 * Home
 * Work
@@ -139,7 +139,7 @@ Once you have setup your account in SAFE, uploaded your SSH key to SAFE and retr
 your initial password, you can log into ARCHER2 with:
 
 ```
-ssh auser@login.archer2.ac.uk
+ssh auser@login-4c.archer2.ac.uk
 ```
 {: .language-bash}
 
