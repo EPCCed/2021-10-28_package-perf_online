@@ -83,7 +83,7 @@ benchmarking so we will define them first:
  - **Scaling**: A measure of how the performance changes as the number of 
    nodes/cores are increased. Scaling is measured relative to the
    *baseline performance*. *Perfect scaling* is the performance you would expect
-   if there was no parallel overheads in the calculation.
+   if there are no parallel overheads in the calculation.
  - **Parallel efficiency**: The ratio of measured scaling to the perfect scaling.
 
 > ## Your application use an benchmarking
@@ -292,7 +292,7 @@ The answer depends on what you are measuring and why. Some examples:
      arithmetic mean as this can lead to incorrect conclusions. It is better
      to combine results using the timings and the convert this result into the
      rate. (If you need to combine rate metrics, you can use the harmonic
-     mean rather than the arithmetic mean.) See
+     mean rather than the arithmetic mean.) See, for example,
      [Scientific Benchmarking of Parallel Computing Systems](https://spcl.inf.ethz.ch/Teaching/2019-dphpc/hoefler-scientific-benchmarking.pdf)
      for more information on how to report performance data.)
  - You want an idea of the best case scenario to allow you to compare the

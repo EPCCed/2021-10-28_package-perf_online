@@ -71,7 +71,7 @@ srunopt --time=0:10:0 --nodes=1 --ntasks-per-node=64 sharpen-mpi-profile.x > sha
 ```
 {: .language-bash}
 ```
-Submitted job
+CrayPat/X:  Version 20.10.0 Revision 7ec62de47  09/16/20 16:57:54
 ```
 {: .output}
 
@@ -278,7 +278,7 @@ of cores we are using. So, lets vary this and see how the profile changes.
 > > You should see the following
 > >
 > > - MPI proportion: around 20%
-> > - Memory use: 21,792.3 MiBytes
+> > - Memory use: 21,792.3 MiBytes, 85.126 MiBytes per PE
 > > - I/O use: Same as for the 64 node case
 > >
 > > The increase in time in MPI functions mean that more of the runtime of
@@ -290,6 +290,13 @@ of cores we are using. So, lets vary this and see how the profile changes.
 > > When we increase the core count again we would expect to see the proportion
 > > of time in MPI functions increase still further leading to the application
 > > scaling moving even further away from ideal.
+> >
+> > The memory use also increases, though the amount of memory per PE (MPI process)
+> > stays relatively stable compared to the smaller run showing that the same
+> > amount of data is being replicated across each MPI process no matter how 
+> > many MPI processes we use. This would also potentially cause scaling problems
+> > as a larger problem would lead to larger MPI use per process and we will 
+> > likely eventually run out of memory.
 > {: .solution}
 {: .challenge}
 
