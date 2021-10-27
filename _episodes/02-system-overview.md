@@ -111,7 +111,7 @@ More information on ARCHER2 can be found in [the ARCHER2 Documentation](https://
 The ARCHER2 login address is
 
 ```
-login.archer2.ac.uk
+login-4c.archer2.ac.uk
 ```
 {: .language-bash}
 
