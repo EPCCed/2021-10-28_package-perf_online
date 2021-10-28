@@ -293,7 +293,7 @@ The answer depends on what you are measuring and why. Some examples:
      to combine results using the timings and the convert this result into the
      rate. (If you need to combine rate metrics, you can use the harmonic
      mean rather than the arithmetic mean.) See, for example,
-     [Scientific Benchmarking of Parallel Computing Systems](https://spcl.inf.ethz.ch/Teaching/2019-dphpc/hoefler-scientific-benchmarking.pdf)
+     [Scientific Benchmarking of Parallel Computing Systems (Hoefler and Belli)](https://spcl.inf.ethz.ch/Teaching/2019-dphpc/hoefler-scientific-benchmarking.pdf)
      for more information on how to report performance data.)
  - You want an idea of the best case scenario to allow you to compare the
    performance of different HPC systems or parameter choices. In this case,
